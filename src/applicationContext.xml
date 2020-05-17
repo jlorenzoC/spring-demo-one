@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- MY BEANS-->
+
+    <!-- Next one below, is a logger config bean to have a notion what's
+          happening behind the scenes, since Spring 5.1 console logging was
+          removed. Just in case a higher release is used -->
+    <bean id="myLoggerConfig" class="com.jayjay.first.springdemo.MyLoggerConfig" init-method="initLogger">
+        <property name="rootLoggerLevel" value="FINE"/>
+        <property name="printedLoggerLevel" value="FINE"/>
+    </bean>
+
+    <!-- Bean created and retrieved from SpringHelloApp.main() by the
+          Spring object factory or Spring container. Just doing a little bit of
+          Spring IoC (Inversion of Control) -->
+    <bean id="myCoach"
+          class="com.jayjay.first.springdemo.BaseballCoach">
+    </bean>
+
+</beans>
+
+
+
+
+

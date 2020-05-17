@@ -1,0 +1,9 @@
+# IntelliJ IDEA config folder and files
+.idea
+*.iml
+
+# Compiled class folder
+out
+
+# Jar library folder
+lib

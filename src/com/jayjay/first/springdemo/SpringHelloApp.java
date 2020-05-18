@@ -14,6 +14,9 @@ public class SpringHelloApp {
         // use the object
         System.out.println(theCoach.getDailyWorkout());
 
+        // call new method for fortunes
+        System.out.println(theCoach.getDailyFortune());
+
         // close the context
         context.close();
     }

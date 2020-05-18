@@ -14,11 +14,18 @@
         <property name="printedLoggerLevel" value="FINE"/>
     </bean>
 
+    <bean id="myFortune"
+          class="com.jayjay.first.springdemo.HappyFortuneService">
+    </bean>
+
     <!-- Bean created and retrieved from SpringHelloApp.main() by the
           Spring object factory or Spring container. Just doing a little bit of
           Spring IoC (Inversion of Control) -->
     <bean id="myCoach"
-          class="com.jayjay.first.springdemo.BaseballCoach">
+          class="com.jayjay.first.springdemo.TrackCoach">
+
+        <!-- set up constructor injection -->
+        <constructor-arg ref="myFortune"></constructor-arg>
     </bean>
 
 </beans>

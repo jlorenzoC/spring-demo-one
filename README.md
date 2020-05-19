@@ -2,7 +2,7 @@
 
 Just add the Spring framework dependencies to the class build path, and you are ready to go!  
 
-## Project resume
+## About
 
 It's about a journey discovering Spring framework.
 

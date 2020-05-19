@@ -18,14 +18,13 @@
           class="com.jayjay.first.springdemo.HappyFortuneService">
     </bean>
 
-    <!-- Bean created and retrieved from SpringHelloApp.main() by the
-          Spring object factory or Spring container. Just doing a little bit of
-          Spring IoC (Inversion of Control) and DI (Dependency Injection) -->
-    <bean id="myCoach"
-          class="com.jayjay.first.springdemo.TrackCoach">
+    <bean id="myCricketCoach"
+          class="com.jayjay.first.springdemo.CricketCoach">
 
-        <!-- set up constructor injection -->
-        <constructor-arg ref="myFortuneService"></constructor-arg>
+        <!-- set up setter injection -->
+        <!-- Spring framework will call setFortuneService method from property
+              name and will inject myFortuneService bean linked by property ref -->
+        <property name="fortuneService" ref="myFortuneService"></property>
     </bean>
 
 </beans>

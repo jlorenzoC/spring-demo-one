@@ -2,8 +2,7 @@
 
 Just add the Spring framework dependencies to the class build path, and you are ready to go!
 
-## Dependency injection - development process
+## Dependency injection by setter - development process
 
-1. Define the dependency interface and class.
-2. Create a constructor in your class for injections.
-3. Configure the dependency injection in Spring config file.
+1. Create setter method in the class (in new class `CricketCoach`) for injections.
+2. Configure the dependency injection in Spring config file.

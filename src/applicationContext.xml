@@ -20,7 +20,7 @@
 
     <!-- Bean created and retrieved from SpringHelloApp.main() by the
           Spring object factory or Spring container. Just doing a little bit of
-          Spring IoC (Inversion of Control) -->
+          Spring IoC (Inversion of Control) and DI (Dependency Injection) -->
     <bean id="myCoach"
           class="com.jayjay.first.springdemo.TrackCoach">
 

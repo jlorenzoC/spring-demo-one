@@ -8,7 +8,7 @@ It's about a journey discovering Spring framework.
 
 ## In this branch
 
-I walk trough the process of understand how Spring IoC (Inversion of Control) works.
+Walk trough understand how Spring IoC (Inversion of Control) works.
 
 ## Future distributable features, yeah!
 

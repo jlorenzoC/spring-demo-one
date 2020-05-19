@@ -12,4 +12,4 @@ I walk trough the process of understand how Spring IoC (Inversion of Control) wo
 
 ## Future distributable features, yeah!
 
-Branch by branch, every Spring feature will be discovered. So, if you want more Spring code, you need to checkout other branches.
+Branch by branch, every Spring feature will be discovered. So, if you want more Spring code, you need to checkout branches.
